@@ -6,4 +6,12 @@ class BankAccount
     @balance = 1000
     self.status = "open"
   end
+
+  def despoit
+
+  end
+
+  def display_balance
+
+  end
 end
