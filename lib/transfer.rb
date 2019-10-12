@@ -10,5 +10,8 @@ class Transfer
      self.amount = 50
    end
 
+   def valid?
+     self.status == self.status
+   end
 
 end
