@@ -11,8 +11,7 @@ class Transfer
    end
 
    def valid?
-     self.status == self.status
-     #self.status == "open" && @balance > 0
+     #self.status == self.status
      self.status.valid?
    end
 
