@@ -13,7 +13,7 @@ class Transfer
    def valid?
      #self.status == self.status
      #self.status.valid?
-     self.sender.valid? == self.receiver.valid?
+     self.sender.valid? && self.receiver.valid?
    end
 
    def execute_transaction
