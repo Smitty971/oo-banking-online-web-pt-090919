@@ -17,7 +17,11 @@ class Transfer
    end
 
    def execute_transaction
-    
+    if
+      @sender.balance < 0 && self.status = "open"
+    else
+      "Transaction rejected. Please check your account balance."
+    end
    end
 
 
